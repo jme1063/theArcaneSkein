@@ -1,12 +1,41 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import './App.css';
 import firefrog from './images/firefrog.png';
 
 function App() {
   const [activeSection, setActiveSection] = useState('main');
 
+  // Generate stars. In theory only once per page load
+  // useMemo is imported in and will be used to keep star position while on site
+  const stars = useMemo(() => (
+    [...Array(50)].map((_, i) => {
+      const top = Math.random();
+      const left = Math.random();
+      const delay = Math.random();
+      const size = 2 + Math.random() * 3;
+      return (
+        <div
+          key={i}
+          className="star"
+          style={{
+            '--star-top': top,
+            '--star-left': left,
+            '--star-delay': delay,
+            width: `${size}px`,
+            height: `${size}px`,
+            borderRadius: `${size / 2}px`,
+          }}
+        />
+      );
+    })
+  ), []); // Empty dependency array
+
+
   return (
     <div className="App"> 
+      <div className="starry-sky">
+        {stars}
+      </div>
       <div className="center-stack">
         <a 
           href="https://allaboutfrogs.org/funstuff/randomfrog.html"
@@ -27,8 +56,7 @@ function App() {
                   Etsy
                 </a>
               </li>
-              <li>Socials</li>
-              <li>My Art</li>
+              <li>My Art (come back please)</li>
               <li>C:</li>
               <li>
                 <button

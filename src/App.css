@@ -102,3 +102,32 @@
   Color: #000000;
   font-size: 1.5em;
 }
+
+.starry-sky {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: #fff;
+  opacity: 0.8;
+  border-radius: 1px;
+  /* Random position and animation for each star */
+  top: calc(100% * var(--star-top));
+  left: calc(100% * var(--star-left));
+  animation: twinkle 2s infinite alternate;
+  animation-delay: calc(-2s * var(--star-delay));
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
