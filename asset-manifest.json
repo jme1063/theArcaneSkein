@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/theArcaneSkein/static/css/main.f917fb1b.css",
-    "main.js": "/theArcaneSkein/static/js/main.c994c3dd.js",
+    "main.css": "/theArcaneSkein/static/css/main.fbbdc55d.css",
+    "main.js": "/theArcaneSkein/static/js/main.bca589d6.js",
     "static/js/453.cf3a244a.chunk.js": "/theArcaneSkein/static/js/453.cf3a244a.chunk.js",
+    "static/media/dia.PNG": "/theArcaneSkein/static/media/dia.df00bb50114c10cdbab1.PNG",
+    "static/media/miette.PNG": "/theArcaneSkein/static/media/miette.feb5c2330ac088719bd5.PNG",
+    "static/media/Capture.PNG": "/theArcaneSkein/static/media/Capture.c7db9eb4c30d4d8358c9.PNG",
+    "static/media/kipterris.PNG": "/theArcaneSkein/static/media/kipterris.bc74fa06128f5bcc9d61.PNG",
+    "static/media/diza.PNG": "/theArcaneSkein/static/media/diza.419b2ec685f23df5f55d.PNG",
+    "static/media/fin.PNG": "/theArcaneSkein/static/media/fin.0e68a9f0a54cf54f3df6.PNG",
+    "static/media/image3.png": "/theArcaneSkein/static/media/image3.bb86c8454dc288b6e853.png",
+    "static/media/image0.png": "/theArcaneSkein/static/media/image0.e99595b507e5f95a44c8.png",
     "static/media/firefrog.png": "/theArcaneSkein/static/media/firefrog.39c9ec1e4f3dd4415ddf.png",
+    "static/media/image2.jpg": "/theArcaneSkein/static/media/image2.1ff99c53864dc7636247.jpg",
     "index.html": "/theArcaneSkein/index.html",
-    "main.f917fb1b.css.map": "/theArcaneSkein/static/css/main.f917fb1b.css.map",
-    "main.c994c3dd.js.map": "/theArcaneSkein/static/js/main.c994c3dd.js.map",
+    "main.fbbdc55d.css.map": "/theArcaneSkein/static/css/main.fbbdc55d.css.map",
+    "main.bca589d6.js.map": "/theArcaneSkein/static/js/main.bca589d6.js.map",
     "453.cf3a244a.chunk.js.map": "/theArcaneSkein/static/js/453.cf3a244a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f917fb1b.css",
-    "static/js/main.c994c3dd.js"
+    "static/css/main.fbbdc55d.css",
+    "static/js/main.bca589d6.js"
   ]
 }
