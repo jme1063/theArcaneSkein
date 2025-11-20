@@ -107,7 +107,7 @@ function App() {
           {activeSection === "about" && (
             <div>
               <h2>About Me:</h2>
-              <p> I like frogs, I make art. That's all for now.</p>
+              <p> Hello, I am an artist and crafter, and I hope to make a small prtfolio of all my work here soon.</p>
               <button
                 className="link-button"
                 onClick={() => setActiveSection('main')}
