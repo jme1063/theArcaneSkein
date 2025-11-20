@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/theArcaneSkein/static/css/main.f917fb1b.css",
-    "main.js": "/theArcaneSkein/static/js/main.cb9efc4f.js",
+    "main.js": "/theArcaneSkein/static/js/main.c994c3dd.js",
     "static/js/453.cf3a244a.chunk.js": "/theArcaneSkein/static/js/453.cf3a244a.chunk.js",
     "static/media/firefrog.png": "/theArcaneSkein/static/media/firefrog.39c9ec1e4f3dd4415ddf.png",
     "index.html": "/theArcaneSkein/index.html",
     "main.f917fb1b.css.map": "/theArcaneSkein/static/css/main.f917fb1b.css.map",
-    "main.cb9efc4f.js.map": "/theArcaneSkein/static/js/main.cb9efc4f.js.map",
+    "main.c994c3dd.js.map": "/theArcaneSkein/static/js/main.c994c3dd.js.map",
     "453.cf3a244a.chunk.js.map": "/theArcaneSkein/static/js/453.cf3a244a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f917fb1b.css",
-    "static/js/main.cb9efc4f.js"
+    "static/js/main.c994c3dd.js"
   ]
 }
