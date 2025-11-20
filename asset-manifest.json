@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/theArcaneSkein/static/css/main.fbbdc55d.css",
-    "main.js": "/theArcaneSkein/static/js/main.bca589d6.js",
+    "main.js": "/theArcaneSkein/static/js/main.e1aeed21.js",
     "static/js/453.cf3a244a.chunk.js": "/theArcaneSkein/static/js/453.cf3a244a.chunk.js",
     "static/media/dia.PNG": "/theArcaneSkein/static/media/dia.df00bb50114c10cdbab1.PNG",
     "static/media/miette.PNG": "/theArcaneSkein/static/media/miette.feb5c2330ac088719bd5.PNG",
@@ -15,11 +15,11 @@
     "static/media/image2.jpg": "/theArcaneSkein/static/media/image2.1ff99c53864dc7636247.jpg",
     "index.html": "/theArcaneSkein/index.html",
     "main.fbbdc55d.css.map": "/theArcaneSkein/static/css/main.fbbdc55d.css.map",
-    "main.bca589d6.js.map": "/theArcaneSkein/static/js/main.bca589d6.js.map",
+    "main.e1aeed21.js.map": "/theArcaneSkein/static/js/main.e1aeed21.js.map",
     "453.cf3a244a.chunk.js.map": "/theArcaneSkein/static/js/453.cf3a244a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbbdc55d.css",
-    "static/js/main.bca589d6.js"
+    "static/js/main.e1aeed21.js"
   ]
 }
