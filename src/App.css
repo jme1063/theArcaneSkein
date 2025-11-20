@@ -1,17 +1,32 @@
-
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #0f1419;
+}
 
 .App {
   /* Full screen night sky background */
   background-color: #0f1419; /* Dark night sky color */
   min-height: 100vh; /* Full viewport height */
   width: 100vw; /* Full viewport width */
+  min-width: 100vw;
   margin: 0;
   padding: 0;
   
   /* Center the turquoise box */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
 }
 
 .center-stack {
@@ -61,29 +76,57 @@
   font-weight: bold;
 }
 
+
 .turquoise-box {
   /* Turquoise rectangle */
   background-color: #E2F9DB; /* Turquoise color */
-  width: 300px;
-  height: 400px;
-  
+  width: 200px;
+  height: 300px;
   /* Center text inside the box */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 24px;
-  
   /* rounded corners */
   border-radius: 10px;
-
   /* border color */
   border: 4px solid #ADDFAD;
+  transition: width 0.4s, height 0.4s;
+}
+
+.turquoise-box.expanded {
+  width: 1100px;
+  height: 750px;
+  max-width: 98vw;
+  max-height: 95vh;
+  transition: width 0.4s, height 0.4s;
 }
 
 .turquoise-box p {
   color: #000000;
   font-size: 18px;
   margin: 0;
+}
+
+.turquoise-box-inner {
+  width: 500px;
+  min-height: 300px;
+  transition: width 0.4s, min-height 0.4s;
+  margin: 0 auto;
+}
+
+.turquoise-box-inner.expanded {
+  width: 90vw;
+  min-height: 80vh;
+  max-width: 1200px;
+  transition: width 0.4s, min-height 0.4s;
+}
+.turquoise-box-inner.expanded {
+  width: 98vw;
+  min-height: 60vh;
+  max-width: none;
+  transition: width 0.4s, min-height 0.4s;
+  overflow-x: auto;
 }
 
 .main-list {
@@ -130,4 +173,22 @@
 @keyframes twinkle {
   0% { opacity: 0.5; }
   100% { opacity: 1; }
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(2, auto);   /* 2 rows */
+  gap: 24px;
+  margin-top: 16px;
+  justify-items: center;
+  align-items: center;
+}
+
+.art-grid img {
+  width: 200px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #222;
 }
